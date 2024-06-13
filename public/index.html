@@ -11,47 +11,82 @@
 			margin: 0;
 			padding: 0;
 			background-color: #f4f4f4;
-			max-width: 100vw;
 			overflow-x: hidden;
 		}
 
 		.App {
 			text-align: center;
-        }
+		}
 
 		.background {
 			background-image: url('img.jpg');
-			background-size: contain;
+			background-size: cover;
 			background-repeat: no-repeat;
 			background-position: center;
 			color: white;
 			display: flex;
 			align-items: center;
 			justify-content: center;
-			font-size: 2rem;
-			font-weight: bold;
-			font-family: 'Arial';
 			flex-direction: column;
-			background-size: cover;
-			background-color: skyblue;
-			height: fit-content;
-			width: 100vw;
+			padding: 20px;
 			box-sizing: border-box;
-			padding: 15px;
-			max-height: 200vh;
+			min-height: 100vh;
+			width: 100%;
 			margin: 0;
 		}
 
 		h1 {
-			font-size: 2em;
+			font-size: 2.5rem;
+			margin: 10px 0;
 		}
 
 		h3 {
-			font-size: 1em;
+			font-size: 1.5rem;
+			margin: 10px 0;
 		}
 
 		p {
-			font-size: 1em;
+			font-size: 1.2rem;
+			margin: 10px 0;
+			max-width: 800px;
+			padding: 0 20px;
+		}
+
+		/* Responsive Design */
+		@media (max-width: 768px) {
+			.background {
+				padding: 10px;
+			}
+
+			h1 {
+				font-size: 2rem;
+			}
+
+			h3 {
+				font-size: 1.2rem;
+			}
+
+			p {
+				font-size: 1rem;
+			}
+		}
+
+		@media (max-width: 480px) {
+			.background {
+				padding: 5px;
+			}
+
+			h1 {
+				font-size: 1.5rem;
+			}
+
+			h3 {
+				font-size: 1rem;
+			}
+
+			p {
+				font-size: 0.9rem;
+			}
 		}
 	</style>
 </head>
