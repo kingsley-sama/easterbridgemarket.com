@@ -1,0 +1,22 @@
+.background{
+  
+  /* add local background image*/
+  background-image: url('/img.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Arial';
+  background-size: cover;
+  background-color:skyblue;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
