@@ -12,6 +12,7 @@
   font-size: 2rem;
   font-weight: bold;
   font-family: 'Arial';
+  flex-direction: column;
   background-size: cover;
   background-color:skyblue;
   height: 100vh;
